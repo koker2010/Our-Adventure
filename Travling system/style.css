@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Lobster";
+    src: url(../fonts/Lobster/Lobster-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url(../fonts/Cairo/Cairo-Regular.woff);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../fonts/Oswald/Oswald-Regular.woff);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .parent {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .parent {
+        width: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .parent {
+        width: 800px;
+    }
+}
+
+.title-1 {
+    font-family: "Lobster";
+    text-align: center;
+    font-size: x-large;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+h2,
+h4 {
+    font-family: "Oswald";
+}
+
+.title,
+.title-1,
+.examples {
+    color: darkred;
+}
+
+.examples {
+    font-size: x-large;
+}
+
+.title-red {
+    color: red;
+    font-size: xx-large;
+}
+
+.title-yellow {
+    color: rgb(255, 208, 40);
+    font-size: xx-large;
+}
+
+.title-blue {
+    color: blue;
+    font-size: xx-large;
+}
+
+.title-combo {
+    font-size: xx-large;
+    color: #dcdcdc;
+}
+
+span {
+    font-weight: bold;
+}
+
+p,
+ul {
+    font-family: "Cairo";
+    font-size: larger;
+}
+
+.combo ul .purple {
+    color: purple;
+}
+
+.combo ul .green {
+    color: green;
+}
+
+.combo ul .orange {
+    color: orange;
+}
+
+.combo ul .white {
+    color: #dcdcdc;
+}
+
+.combo ul .b {
+    color: blue;
+}
+
+.combo ul .r {
+    color: red;
+}
+
+.combo ul .y {
+    color: rgb(255, 208, 40);
+}

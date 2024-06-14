@@ -1,0 +1,21 @@
+scroll <
+<i class="fa-solid fa-scroll"></i>
+>
+dragon <
+<i class="fa-solid fa-dragon"></i>
+>
+skull <
+<i class="fa-solid fa-skull-crossbones"></i>
+>
+dungeon-gate <
+<i class="fa-solid fa-dungeon"></i>
+>
+d20-dice <
+<i class="fa-solid fa-dice-d20"></i>
+>
+fire <
+<i class="fa-solid fa-fire"></i>
+>
+copyright <
+<i class="fa-regular fa-copyright"></i>
+>
