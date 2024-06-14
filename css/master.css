@@ -4,36 +4,26 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "Lobster";
-    src: url(../fonts/Lobster/Lobster-Regular.woff) format("woff");
-}
 
-@font-face {
-    font-family: "Cairo";
-    src: url(../fonts/Cairo/Cairo-Regular.woff);
-}
-
-@font-face {
-    font-family: "Oswald";
-    src: url(../fonts/Oswald/Oswald-Regular.woff);
-}
 
 body {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .header {
-    background-color: darkred;
+    background-color: #c90c0c;
 }
 
 .container {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    background-color: darkred;
+    background-color: #c90c0c;
+    height: 65px;
 }
+
 
 @media (min-width: 768px) {
     .container {
@@ -41,19 +31,45 @@ body {
     }
 }
 
-@media (min-width: 992px) {
-    .container {
-        width: 900px;
-    }
-}
 
-@media (min-width: 1200px) {
-    .container {
-        width: 900px;
-    }
-}
 
-.container i {
+.header i {
     font-size: 35px;
     color: white;
+    position: absolute;
+    margin-left: 7.5%;
+    margin-top: 12px;
+}
+.header .container .links ul {
+    display: inline;
+    margin: 20px;
+    padding: 50px;
+    text-align: end;
+}
+.header .container .links .nav-bar a{
+    text-decoration: none;
+    color: #640606;
+    font-size: 20px;
+    font-weight: 550;
+    display: inline-block;
+    text-align: right;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #c90c0c;
+    border-width: 3px;
+    padding: 5px;
+    transition-duration: .3s;
+}
+.header .container .links .nav-bar a:hover {
+    border-color: #640606;
+    color: #c90c0c;
+    background-color: #640606;
+}
+.header .container .links .nav-bar {
+    height: 30px;
+    width: 900px;
+    text-align: end;
+    padding: 3px;
+    /* background-color: aliceblue; */
 }
