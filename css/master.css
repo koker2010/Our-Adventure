@@ -24,15 +24,11 @@ body {
     margin: 0;
 }
 
-.header {
-    background-color: darkred;
-}
-
-.container {
+.splash {
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    background-color: darkred;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -51,9 +47,4 @@ body {
     .container {
         width: 900px;
     }
-}
-
-.container i {
-    font-size: 35px;
-    color: white;
 }
