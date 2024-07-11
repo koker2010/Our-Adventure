@@ -19,18 +19,6 @@
     src: url(../fonts/Oswald/Oswald-Regular.woff);
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
-.splash {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    text-align: center;
-}
-
 @media (min-width: 768px) {
     .container {
         width: 750px;
@@ -47,4 +35,28 @@ body {
     .container {
         width: 900px;
     }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../image/bg-pic.png ");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lobster";
+    font-size: xx-large;
+    color: darkred;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: white;
 }
